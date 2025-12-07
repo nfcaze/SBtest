@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mağaza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mağazamız</h1>
+    <div id="cart-btn">Sepet (0)</div>
+</header>
+
+<div class="product-list" id="product-list"></div>
+
+<!-- Ürün Açılır Pencere -->
+<div class="modal" id="productModal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+
+        <img id="modal-img">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <p id="modal-price"></p>
+
+        <button id="addToCart">Sepete Ekle</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
