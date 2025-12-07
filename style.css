@@ -62,6 +62,14 @@ header {
     animation: show .3s ease;
 }
 
+.modal-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 @keyframes show {
     from { transform: scale(0.7); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
