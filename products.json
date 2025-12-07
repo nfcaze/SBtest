@@ -1,16 +1,21 @@
 [
-    {
-        "id": 1,
-        "name": "Metal Coin - Gold Edition",
-        "price": 25,
-        "desc": "Sınırlı üretim metal koleksiyon parası.",
-        "img": "img/coin1.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Metal Coin - Silver Edition",
-        "price": 18,
-        "desc": "Özel desenli koleksiyon parası.",
-        "img": "img/coin2.jpg"
-    }
+    {"id":1,"name":"Metal Coin - Gold","desc":"Altın kaplama sınırlı üretim.","price":25,"img":"img/coin1.jpg"},
+    {"id":2,"name":"Metal Coin - Silver","desc":"Gümüş kaplama koleksiyon parası.","price":18,"img":"img/coin2.jpg"},
+    {"id":3,"name":"Metal Coin - Bronze","desc":"Bronz koleksiyon parası.","price":12,"img":"img/coin3.jpg"},
+    
+    {"id":4,"name":"Collector Coin A","desc":"Özel desenli A koleksiyonu.","price":30,"img":"img/coin4.jpg"},
+    {"id":5,"name":"Collector Coin B","desc":"Özel desenli B koleksiyonu.","price":28,"img":"img/coin5.jpg"},
+    {"id":6,"name":"Collector Coin C","desc":"Özel desenli C koleksiyonu.","price":22,"img":"img/coin6.jpg"},
+
+    {"id":7,"name":"Coin Set 1","desc":"3 parçalık özel set.","price":50,"img":"img/coin7.jpg"},
+    {"id":8,"name":"Coin Set 2","desc":"3 parçalık koleksiyon seti.","price":48,"img":"img/coin8.jpg"},
+    {"id":9,"name":"Coin Set 3","desc":"3 parçalık set C.","price":45,"img":"img/coin9.jpg"},
+
+    {"id":10,"name":"Special Coin X","desc":"Özel X serisi.","price":60,"img":"img/coin10.jpg"},
+    {"id":11,"name":"Special Coin Y","desc":"Özel Y serisi.","price":58,"img":"img/coin11.jpg"},
+    {"id":12,"name":"Special Coin Z","desc":"Özel Z serisi.","price":55,"img":"img/coin12.jpg"},
+
+    {"id":13,"name":"Rare Coin 1","desc":"Nadir 1 numara.","price":70,"img":"img/coin13.jpg"},
+    {"id":14,"name":"Rare Coin 2","desc":"Nadir 2 numara.","price":75,"img":"img/coin14.jpg"},
+    {"id":15,"name":"Rare Coin 3","desc":"Nadir 3 numara.","price":80,"img":"img/coin15.jpg"}
 ]
