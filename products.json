@@ -1,5 +1,5 @@
 [
-    {"id":1,"name":"Metal Coin - Gold","desc":"Altın kaplama sınırlı üretim.","price":25,"img":"img/coin1.jpg"},
+    {"id":1,"name":"FireBoy","desc":"FireBoy Dizaynlı Tshirt / Rənglər: ⚪️⚫️","price":25₼,"img":"img/coin1.jpg"},
     {"id":2,"name":"Metal Coin - Silver","desc":"Gümüş kaplama koleksiyon parası.","price":18,"img":"img/coin2.jpg"},
     {"id":3,"name":"Metal Coin - Bronze","desc":"Bronz koleksiyon parası.","price":12,"img":"img/coin3.jpg"},
     
