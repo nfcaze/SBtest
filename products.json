@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Metal Coin - Gold Edition",
+        "price": 25,
+        "desc": "Sınırlı üretim metal koleksiyon parası.",
+        "img": "img/coin1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Metal Coin - Silver Edition",
+        "price": 18,
+        "desc": "Özel desenli koleksiyon parası.",
+        "img": "img/coin2.jpg"
+    }
+]
