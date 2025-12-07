@@ -49,12 +49,12 @@ function addToCart(product) {
     cart.push(product);
     localStorage.setItem("cart", JSON.stringify(cart));
     updateCartCount();
-    alert("Sepete eklendi!");
+    alert("Səbətə Əlavə Edildi");
 }
 
 // Sepet sayısı güncelle
 function updateCartCount() {
-    cartBtn.textContent = "Sepet (" + cart.length + ")";
+    cartBtn.textContent = "Səbət (" + cart.length + ")";
 }
 
 // Sepet modal aç
@@ -79,7 +79,7 @@ function showCart() {
         total += item.price;
         cartItems.innerHTML += `
         <div class="cart-item">
-            <span>${item.name} - ${item.price}₺</span>
+            <span>${item.name} - ${item.price}₼</span>
             <button onclick="removeCartItem(${index})">Sil</button>
         </div>`;
     });
