@@ -21,7 +21,7 @@ function showProducts() {
             <img src="${p.img}">
             <h3>${p.name}</h3>
             <p>${p.desc}</p>
-            <p><strong>${p.price} ₺</strong></p>
+            <p><strong>${p.price} ₼</strong></p>
         </div>`;
     });
 }
@@ -33,7 +33,7 @@ function openModal(id) {
     document.getElementById("modal-img").src = p.img;
     document.getElementById("modal-title").textContent = p.name;
     document.getElementById("modal-desc").textContent = p.desc;
-    document.getElementById("modal-price").textContent = p.price + " ₺";
+    document.getElementById("modal-price").textContent = p.price + " ₼";
 
     document.getElementById("addToCart").onclick = () => addToCart(p);
     document.getElementById("productModal").style.display = "flex";
