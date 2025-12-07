@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,58 +16,26 @@ header {
 
 .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 1 satırda 3 ürün */
     gap: 20px;
+    padding: 20px;
 }
 
 .product {
     background: white;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     cursor: pointer;
     transition: 0.2s;
-}
-
-.product:hover {
-    transform: scale(1.03);
+    text-align: center;
 }
 
 .product img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-/* Modal */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.75);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-content {
-    background: white;
-    width: 350px;
-    padding: 20px;
-    border-radius: 12px;
-    position: relative;
-    animation: show .3s ease;
-}
-
-@keyframes show {
-    from { transform: scale(0.7); opacity: 0; }
-    to   { transform: scale(1); opacity: 1; }
-}
-
-.close {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    cursor: pointer;
-    font-size: 24px;
+.product:hover {
+    transform: scale(1.03);
 }
