@@ -2,16 +2,14 @@ let products = [];
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 const cartBtn = document.getElementById("cart-btn");
 
-// Ürünleri JSON'dan yükle
 fetch("products.json")
-    .then(res => res.json())
-    .then(data => {
-        products = data;
-        showProducts();
-        updateCartCount();
-    });
+  .then(res => res.json())
+  .then(data => {
+      products = data;
+      showProducts();
+      updateCartCount();
+  });
 
-// Ürünleri listele
 function showProducts() {
     const list = document.getElementById("product-list");
     products.forEach(p => {
@@ -19,12 +17,12 @@ function showProducts() {
         <div class="product" onclick="openModal(${p.id})">
             <img src="${p.img}">
             <h3>${p.name}</h3>
-            <p>${p.price} ₺</p>
+            <p>${p.desc}</p>
+            <p><strong>${p.price} ₺</strong></p>
         </div>`;
     });
 }
 
-// Modal açma
 function openModal(id) {
     const p = products.find(x => x.id === id);
 
@@ -34,16 +32,13 @@ function openModal(id) {
     document.getElementById("modal-price").textContent = p.price + " ₺";
 
     document.getElementById("addToCart").onclick = () => addToCart(p);
-
     document.getElementById("productModal").style.display = "flex";
 }
 
-// Modal kapatma
 document.getElementById("closeModal").onclick = () => {
     document.getElementById("productModal").style.display = "none";
 };
 
-// Sepete ekleme
 function addToCart(product) {
     cart.push(product);
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -51,7 +46,6 @@ function addToCart(product) {
     alert("Sepete eklendi!");
 }
 
-// Sepet sayısını güncelle
 function updateCartCount() {
     cartBtn.textContent = "Sepet (" + cart.length + ")";
 }
