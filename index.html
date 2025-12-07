@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mağaza</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mağaza</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -19,13 +19,21 @@
 <div class="modal" id="productModal">
     <div class="modal-content">
         <span class="close" id="closeModal">&times;</span>
-
         <img id="modal-img">
         <h2 id="modal-title"></h2>
         <p id="modal-desc"></p>
         <p id="modal-price"></p>
-
         <button id="addToCart">Sepete Ekle</button>
+    </div>
+</div>
+
+<!-- Sepet Açılır Pencere -->
+<div class="modal" id="cartModal">
+    <div class="modal-content">
+        <span class="close" id="closeCart">&times;</span>
+        <h2>Sepetiniz</h2>
+        <div id="cart-items"></div>
+        <h3>Toplam: <span id="cart-total">0</span> ₺</h3>
     </div>
 </div>
 
