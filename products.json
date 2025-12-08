@@ -3,19 +3,19 @@
     {"id":2,"name":"FireGirl","desc":"FireGirl Dizaynlı T-Shirt / ⚪️⚫️","price":25,"img":"img/test2.jpg"},
     {"id":3,"name":"Dollar","desc":"Kağız Əskinas / ⚪️⚫️","price":25,"img":"img/test3.jpg"},
 
-    {"id":4,"name":"Manat","desc":"Kağız Əskinas / ⚪️⚫️","price":25,"img":"img/coin4.jpg"},
-    {"id":5,"name":"Love","desc":"Romantik Dizaynlı T-Shirt / ⚪️⚫️","price":25,"img":"img/coin5.jpg"},
-    {"id":6,"name":"Depresif","desc":"Depresif Dizaynlı T-Shirt / ⚪️⚫️","price":25,"img":"img/coin6.jpg"},
+    {"id":4,"name":"Manat","desc":"Kağız Əskinas / ⚪️⚫️","price":25,"img":"img/test4.jpg"},
+    {"id":5,"name":"Love","desc":"Romantik Dizaynlı T-Shirt / ⚪️⚫️","price":25,"img":"img/test5.jpg"},
+    {"id":6,"name":"Depresif","desc":"Depresif Dizaynlı T-Shirt / ⚪️⚫️","price":25,"img":"img/test6.jpg"},
 
-    {"id":7,"name":"Mizah","desc":"Everything is gonna be alright / ⚪️⚫️","price":25,"img":"img/coin7.jpg"},
-    {"id":8,"name":"La Casa De Papel","desc":"LCDP Həvəskarları üçün / ⚪️⚫️","price":25,"img":"img/coin8.jpg"},
-    {"id":9,"name":"Prison Break","desc":"Prison Break Həvəskarları üçün / ⚪️⚫️","price":25,"img":"img/coin9.jpg"},
+    {"id":7,"name":"Mizah","desc":"Everything is gonna be alright / ⚪️⚫️","price":25,"img":"img/test7.jpg"},
+    {"id":8,"name":"La Casa De Papel","desc":"LCDP Həvəskarları üçün / ⚪️⚫️","price":25,"img":"img/test8.jpg"},
+    {"id":9,"name":"Prison Break","desc":"Prison Break Həvəskarları üçün / ⚪️⚫️","price":25,"img":"img/test9.jpg"},
 
-    {"id":10,"name":"Porsche","desc":"Porsche Həvəskarları üçün / ⚪️⚫️","price":30,"img":"img/coin10.jpg"},
-    {"id":11,"name":"Məhsul 11","desc":"Açıqlama","price":0,"img":"img/coin11.jpg"},
-    {"id":12,"name":"Məhsul 12","desc":"Açıqlama","price":0,"img":"img/coin12.jpg"},
+    {"id":10,"name":"Porsche","desc":"Porsche Həvəskarları üçün / ⚪️⚫️","price":30,"img":"img/test10.jpg"},
+    {"id":11,"name":"Məhsul 11","desc":"Açıqlama","price":0,"img":"img/test11.jpg"},
+    {"id":12,"name":"Məhsul 12","desc":"Açıqlama","price":0,"img":"img/test12.jpg"},
 
-    {"id":13,"name":"Məhsul 13","desc":"Açıqlama","price":0,"img":"img/coin13.jpg"},
-    {"id":14,"name":"Məhsul 14","desc":"Açıqlama","price":0,"img":"img/coin14.jpg"},
-    {"id":15,"name":"Məhsul 15","desc":"Açıqlama","price":0,"img":"img/coin15.jpg"}
+    {"id":13,"name":"Məhsul 13","desc":"Açıqlama","price":0,"img":"img/test13.jpg"},
+    {"id":14,"name":"Məhsul 14","desc":"Açıqlama","price":0,"img":"img/test14.jpg"},
+    {"id":15,"name":"Məhsul 15","desc":"Açıqlama","price":0,"img":"img/test15.jpg"}
 ]
