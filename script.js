@@ -15,13 +15,18 @@ fetch("products.json")
 // Ürünleri listele
 function showProducts() {
     const list = document.getElementById("product-list");
+    list.innerHTML = "";
+
     products.forEach(p => {
         list.innerHTML += `
-        <div class="product" onclick="openModal(${p.id})">
-            <img src="${p.img}">
-            <h3>${p.name}</h3>
-            <p>${p.desc}</p>
-            <p><strong>${p.price} ₼</strong></p>
+        <div class="card" onclick="openModal(${p.id})">
+            <img class="img" src="${p.img}">
+            
+            <div class="textBox">
+                <p class="text head">${p.name}</p>
+                <span>${p.desc}</span>
+                <p class="text price">${p.price} ₼</p>
+            </div>
         </div>`;
     });
 }
