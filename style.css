@@ -99,46 +99,22 @@ header {
     padding: 2px 8px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .product-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .product-list {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Grid düzeni – ürünler aynı hizada */
-.product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  justify-items: center;
-}
-
-/* ÜRÜN KART TASARIMI (Uiverse.io) */
+/* From Uiverse.io by JohnnyCSilva */ 
 .card {
   width: 195px;
   height: 285px;
   background: #313131;
   border-radius: 20px;
+  ;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   transition: 0.2s ease-in-out;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
 }
 
-.card img.img {
+.img {
   height: 30%;
   position: absolute;
   transition: 0.2s ease-in-out;
@@ -184,19 +160,20 @@ header {
 }
 
 @keyframes anim {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .card:hover {
   transform: scale(1.04) rotate(-1deg);
 }
 
-/* Mobil uyum güçlendirme */
-@media(max-width: 500px) {
-  .card {
-    width: 160px;
-    height: 250px;
-  }
-}
