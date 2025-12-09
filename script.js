@@ -16,7 +16,7 @@ fetch("products.json")
 function showProducts() {
     const list = document.getElementById("product-list");
     products.forEach(p => {
-        list.innerHTML += `
+        list.innerHTML += `ə
         <div class="product" onclick="openModal(${p.id})">
             <img src="${p.img}">
             <h3>${p.name}</h3>
@@ -93,4 +93,10 @@ function removeCartItem(index) {
     localStorage.setItem("cart", JSON.stringify(cart));
     updateCartCount();
     showCart();
+}
+
+let user = JSON.parse(localStorage.getItem("loggedUser"));
+
+if (user) {
+    document.getElementById("userInfo").textContent = "Hoş geldin, " + user.name;
 }
